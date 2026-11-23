@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Tugas Kuliah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+       
+<header>
+    <h1>♡ StudyList ♡</h1>
+    <p>Little steps, big achievements! ✨</p>
+    <p>Yuk, atur tugas kuliahmu dan raih hari yang produktif! 🌷</p>
+</header>
+
+
+        <section class="form-tugas">
+            <h2>Tambah Tugas</h2>
+
+            <input type="text" id="namaTugas" placeholder="Nama tugas">
+            <input type="text" id="mataKuliah" placeholder="Nama mata kuliah">
+            <input type="date" id="deadline">
+
+            <button id="tambahBtn">Tambah Tugas</button>
+        </section>
+
+        
+<section class="daftar-tugas">
+    <h2>Daftar Tugas</h2>
+
+    <div class="ringkasan">
+        <div class="kotak-ringkasan">
+            <h3 id="jumlahTugas">0</h3>
+            <p>Total Tugas</p>
+        </div>
+
+        <div class="kotak-ringkasan">
+            <h3 id="jumlahSelesai">0</h3>
+            <p>Tugas Selesai</p>
+        </div>
+
+        <div class="kotak-ringkasan">
+            <h3 id="jumlahBelum">0</h3>
+            <p>Belum Selesai</p>
+        </div>
+    </div>
+
+    <div id="listTugas"></div>
+</section>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
