@@ -35,7 +35,7 @@ Dengan StudyList, mahasiswa dapat mengelola tugas kuliah dengan lebih mudah dan 
 
 Website ini dibuat untuk membantu mahasiswa mengelola tugas perkuliahan agar lebih terorganisir, mengurangi risiko lupa deadline, dan meningkatkan semangat belajar.
 
-## 👩‍💻 Kontributor
+- Divani Laras Putri (@divanilaras6-ship-it)
 
 - Sri Maharani
 - Ananda Fitria
